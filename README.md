@@ -9,7 +9,7 @@ This takes in consideration 10 minutes of the driver session, beeing a Quali it'
 
 
 Example of Json output of the API:
-
+```
 [
   {
     "date": "2023-04-01T06:00:00.067000+00:00",
@@ -30,5 +30,5 @@ Example of Json output of the API:
     "y": 795
   }
 ]
-
+```
 The job of the script is to extrapolate only the x and y coordinates and write them in a new file.
